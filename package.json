@@ -1,0 +1,26 @@
+{
+  "name": "express-simple-session",
+  "version": "1.0.0",
+  "description": "Expressによるシンプルなセッション管理の実装です",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daiki0623/express-simple-session.git"
+  },
+  "author": "Daiki Murata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daiki0623/express-simple-session/issues"
+  },
+  "homepage": "https://github.com/daiki0623/express-simple-session#readme",
+  "dependencies": {
+    "connect-redis": "^6.1.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "parseurl": "^1.3.3",
+    "redis": "^4.0.4"
+  }
+}
